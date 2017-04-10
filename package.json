@@ -2,7 +2,7 @@
   "name": "combover",
   "main": "./lib/combover",
   "version": "0.0.0",
-  "description": "An Atom package for CSSComb support",
+  "description": "For those times when your CSS' hair is a mess",
   "homepage": "https://github.com/justinsthomas/combover",
   "repository": {
     "type": "git",
