@@ -1,28 +1,22 @@
 {
   "name": "combover",
   "main": "./lib/combover",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "For those times when your CSS' hair is a mess",
   "homepage": "https://github.com/justinsthomas/combover",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:justinsthomas/combover.git"
-  },
+  "repository": "https://github.com/justinsthomas/combover",
   "bugs": {
     "url": "https://github.com/justinsthomas/combover/issues"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "combover:toggle",
     "atom-workspace": "combover:comb"
   },
-  "repository": "https://github.com/justinsthomas/combover",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-      "csscomb": "4.0.1"
+    "csscomb": "4.0.1"
   }
 }
