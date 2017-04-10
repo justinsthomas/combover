@@ -1,15 +1,23 @@
 {
   "name": "combover",
   "main": "./lib/combover",
-  "version": "0.0.1",
-  "description": "A short description of your package",
+  "version": "0.0.0",
+  "description": "An Atom package for CSSComb support",
+  "homepage": "https://github.com/justinsthomas/combover",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justinsthomas/combover.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinsthomas/combover/issues"
+  },
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "combover:toggle",
     "atom-workspace": "combover:comb"
   },
-  "repository": "https://github.com/atom/combover",
+  "repository": "https://github.com/justinsthomas/combover",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
