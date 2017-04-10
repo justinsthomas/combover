@@ -1,0 +1,20 @@
+{
+  "name": "combover",
+  "main": "./lib/combover",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "combover:toggle",
+    "atom-workspace": "combover:comb"
+  },
+  "repository": "https://github.com/atom/combover",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+      "csscomb": "4.0.1"
+  }
+}
