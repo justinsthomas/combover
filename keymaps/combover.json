@@ -1,6 +1,6 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "combover:toggle",
-    "ctrl-alt-shift-c": "combover:comb"
-  }
+    "atom-workspace": {
+        "ctrl-alt-shift-f": "combover:combFile",
+        "ctrl-alt-shift-p": "combover:combProject"
+    }
 }

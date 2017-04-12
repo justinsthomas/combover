@@ -1,30 +1,24 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle combover",
-        "command": "combover:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "Combover",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "combover:toggle"
-            },
-            {
-              "label": "Comb",
-              "command": "combover:comb"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Toggle combover",
+            "command": "combover:toggle"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Combover",
+            "submenu": [
+                {
+                    "label": "Comb File",
+                    "command": "combover:combFile"
+                },
+                {
+                    "label": "Comb Project",
+                    "command": "combover:combProject"
+                }
+            ]
+        }]
+    }]
 }

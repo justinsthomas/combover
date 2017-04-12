@@ -33,7 +33,6 @@
   },
   "parser": "babel-eslint",
   "plugins": [
-    "angular",
     "babel"
   ],
   "globals": {
